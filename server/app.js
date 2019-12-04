@@ -1,5 +1,5 @@
 var express = require('express');
-var stripe = require('stripe')('sk_test_z31ZERwfxqqfMJdbx0WpeoGa');
+var stripe = require('stripe')('yourkey');
 var app = express();
 var bodyParser = require('body-parser');
 const {mongoose}= require('./db.js');
