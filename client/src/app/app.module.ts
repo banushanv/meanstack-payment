@@ -51,7 +51,7 @@ const appRoutes: Routes = [
     HttpModule,
     FormsModule,
     ReactiveFormsModule,
-    NgxStripeModule.forRoot('pk_test_hQXo0bXkKctrZkBaSLoUCrUF')
+    NgxStripeModule.forRoot('your key')
   ],
   exports:[RouterModule],
   providers: [],
